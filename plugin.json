@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "id": "fifine-d6",
+  "name": "FIFINE D6",
+  "version": "0.1.0",
+  "description": "Hardware adapter for the FIFINE D6 macro pad, over USB HID.",
+  "author": "OpenPanel",
+  "homepage": "https://github.com/open-panel/plugin-device-fifine-d6",
+  "apiVersion": "^1",
+  "contributes": {
+    "devices": "./src/plugin.ts"
+  }
+}
