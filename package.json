@@ -1,0 +1,50 @@
+{
+  "name": "@open-panel/plugin-fifine-d6",
+  "version": "0.1.0",
+  "description": "OpenPanel device plugin for the FIFINE D6 macro pad over USB HID: buttons and per-key screens.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "OpenPanel contributors",
+  "homepage": "https://github.com/open-panel/plugin-device-fifine-d6#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-panel/plugin-device-fifine-d6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/open-panel/plugin-device-fifine-d6/issues"
+  },
+  "keywords": [
+    "openpanel",
+    "openpanel-plugin",
+    "fifine",
+    "fifine-d6",
+    "macro-pad",
+    "stream-deck",
+    "hid",
+    "node-hid"
+  ],
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "@open-panel/device-sdk": "^0.1.0",
+    "@open-panel/plugin-sdk": "^0.1.0",
+    "@open-panel/shared": "^0.1.0",
+    "node-hid": "^3.1.2"
+  },
+  "devDependencies": {
+    "@open-panel/device-sdk": "^0.1.0",
+    "@open-panel/plugin-sdk": "^0.1.0",
+    "@open-panel/shared": "^0.1.0",
+    "node-hid": "^3.1.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
